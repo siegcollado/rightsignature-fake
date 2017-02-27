@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+  <type>Document</type>
+  <guid>some_guid</guid>
+  <created-at>2017-02-26T21:35:12-08:00</created-at>
+  <filename>some_filename.docx</filename>
+  <size>141245</size>
+  <content-type>docx</content-type>
+  <page-count>1</page-count>
+  <subject>Some Subject</subject>
+  <message>Please sign this document.</message>
+  <tags></tags>
+  <processing-state>done-processing</processing-state>
+  <roles>
+    <role>
+      <role>Document Sender</role>
+      <name>Document Sender</name>
+      <must-sign>false</must-sign>
+      <document-role-id>cc_A</document-role-id>
+      <is-sender>true</is-sender>
+    </role>
+    <role>
+      <role>Some other role</role>
+      <name>Some other role</name>
+      <must-sign>true</must-sign>
+      <document-role-id>signer_A</document-role-id>
+      <is-sender>false</is-sender>
+    </role>
+  </roles>
+  <merge-fields/>
+  <pages>
+    <page>
+      <page-number>1</page-number>
+      <original-template-guid>some_guid</original-template-guid>
+      <original-template-filename>some_filename.docx</original-template-filename>
+    </page>
+  </pages>
+  <thumbnail-url>some_url_here</thumbnail-url>
+  <redirect-token>some_redirect_token</redirect-token>
+</template>

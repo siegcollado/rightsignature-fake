@@ -1,0 +1,13 @@
+<html>
+  <head></head>
+  <title>something</title>
+  <body>
+    Please wait to be redirected to <%= @redirect_location %>...
+
+    <script>
+      (function() {
+        window.location = "<%= @redirect_location %>";
+      });
+    </script>
+  </body>
+</html>

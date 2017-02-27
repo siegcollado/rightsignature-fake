@@ -1,0 +1,37 @@
+AllCops:
+  TargetRubyVersion: 2.1
+  Exclude:
+    - 'rightsignature-fake.gemspec'
+
+Metrics/LineLength:
+  Max: 120
+
+Style/FileName:
+  Exclude:
+    - 'lib/rightsignature-fake.rb'
+
+Style/Documentation:
+  Description: Document classes and non-namespace modules.
+  Enabled: false
+
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+
+Style/AlignParameters:
+  EnforcedStyle: with_first_parameter
+  SupportedStyles:
+    - with_first_parameter
+    - with_fixed_indentation
+
+Style/AlignHash:
+  EnforcedColonStyle: key
+  EnforcedHashRocketStyle: key
+
+Style/StringLiterals:
+  Exclude:
+    - 'Rakefile'
+    - 'bin/console'
+    - 'lib/rightsignature-fake.rb'
+    - 'rightsignature-fake.gemspec'
+    - 'spec/rightsignature/fake_spec.rb'
+    - 'spec/spec_helper.rb'

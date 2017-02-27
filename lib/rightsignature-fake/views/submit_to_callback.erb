@@ -1,0 +1,17 @@
+<html>
+  <head></head>
+  <title>something</title>
+  <body>
+    Please wait to be redirected to <%= @redirect_location %>...
+
+    <script>
+     (function() {
+       var next_url = "<%= @redirect_location %>"
+       if(document.images)
+         top.location.replace(next_url);
+       else
+         top.location.href = next_url;
+     })();
+    </script>
+  </body>
+</html>
