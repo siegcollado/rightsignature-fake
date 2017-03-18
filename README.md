@@ -40,7 +40,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Sieg Collado/rightsignature-fake.
+Bug reports and pull requests are welcome on GitHub at https://github.com/siegcollado/rightsignature-fake.
 
 
 ## License
